@@ -12,7 +12,10 @@ const attendanceSchema = new mongoose.Schema(
             ref:"attendance"
             
         },
-       
+        month: {
+            type: String,
+            required:true
+        } ,
         day: {
             type: String,
             required:true
