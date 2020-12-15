@@ -18,7 +18,8 @@ const staffSchema = new mongoose.Schema(
         } ,
         password: {
             type: String,
-            required:true
+            required:true,
+            default: "123456"
         } ,
         salary: {
             type: Number,
