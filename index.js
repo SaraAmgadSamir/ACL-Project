@@ -1,5 +1,5 @@
 const {app} = require('./app.js')
-const staff_member_routes=require('./routes/staff_member_routes')
+const staff_member_routes=require('./routes/staff_members_routes')
 const mongoose = require('mongoose')
 require('dotenv').config()
 console.log(process.env.DB_URL)

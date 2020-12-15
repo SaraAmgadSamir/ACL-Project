@@ -1,4 +1,4 @@
-const staff_members_models=require('../models/staff_member_models')
+const staff_members_models=require('../models/staff_members_models')
 const express = require('express')
 const { compareSync } = require('bcrypt')
 const router = express.Router()
